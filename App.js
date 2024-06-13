@@ -31,12 +31,12 @@ function roll_dice() {
         let num1 = Number(document.getElementById('p1_score').innerHTML)
         let num2 = Number(document.getElementById('p2_score').innerHTML)
         if (num1 > num2) {
-            document.getElementById('result').innerHTML = 'player 1 wins'
+            document.getElementById('result').innerHTML = 'Captain America win this match'
             document.getElementById('result').className = 'alert alert-dark'
             document.getElementById('btn_roll').disabled = true
         }
         if (num1 < num2) {
-            document.getElementById('result').innerHTML = 'player 2 wins'
+            document.getElementById('result').innerHTML = 'Spiderman win this match'
             document.getElementById('result').className = 'alert alert-dark'
             document.getElementById('btn_roll').disabled = true
         }
